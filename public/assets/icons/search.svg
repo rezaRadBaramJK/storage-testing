@@ -1,0 +1,7 @@
+<svg id="search-2-line" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="search-2-line-2" data-name="search-2-line" width="24" height="24" fill="none"/>
+  <g id="Group">
+    <path id="Vector" d="M0,0H24V24H0Z" fill="none"/>
+    <path id="Vector-2" data-name="Vector" d="M9,0A9,9,0,1,1,0,9,9,9,0,0,1,9,0ZM9,16A7,7,0,1,0,2,9,7,7,0,0,0,9,16Zm8.485.071L20.314,18.9,18.9,20.314l-2.828-2.829,1.414-1.414Z" transform="translate(2 2)" fill="#03053d"/>
+  </g>
+</svg>

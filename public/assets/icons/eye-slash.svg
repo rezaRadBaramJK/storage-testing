@@ -1,0 +1,14 @@
+<svg id="eye-slash" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="vuesax_linear_eye-slash" data-name="vuesax/linear/eye-slash" width="24" height="24" fill="none"/>
+  <g id="vuesax_linear_eye-slash-2" data-name="vuesax/linear/eye-slash">
+    <g id="eye-slash-2" data-name="eye-slash">
+      <path id="Vector" d="M6.11,1.05,1.05,6.11A3.578,3.578,0,1,1,6.11,1.05Z" transform="translate(8.42 8.42)" fill="none" stroke="#292d32" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-2" data-name="Vector" d="M3.385,14.04a14.326,14.326,0,0,1-2.71-3.17,5.326,5.326,0,0,1,0-5.19C2.965,2.08,6.255,0,9.785,0A9.631,9.631,0,0,1,15.6,2.04" transform="translate(2.215 3.73)" fill="none" stroke="#292d32" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-3" data-name="Vector" d="M11.63,0a16.222,16.222,0,0,1,1.06,1.47,5.326,5.326,0,0,1,0,5.19c-2.29,3.6-5.58,5.68-9.11,5.68A9.215,9.215,0,0,1,0,11.6" transform="translate(8.42 7.93)" fill="none" stroke="#292d32" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-4" data-name="Vector" d="M2.82,0A3.565,3.565,0,0,1,0,2.82" transform="translate(12.69 12.7)" fill="none" stroke="#292d32" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-5" data-name="Vector" d="M7.47,0,0,7.47" transform="translate(2 14.53)" fill="none" stroke="#292d32" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-6" data-name="Vector" d="M7.47,0,0,7.47" transform="translate(14.53 2)" fill="none" stroke="#292d32" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-7" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(24 24) rotate(180)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

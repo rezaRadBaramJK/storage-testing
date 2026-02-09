@@ -1,0 +1,30 @@
+User-agent: *
+Disallow: /auth
+Disallow: /carousel
+Disallow: /cart
+Disallow: /categories
+Disallow: /checkout
+Disallow: /dashboard
+Disallow: /orderDetails
+Disallow: /orderStatus
+Disallow: /search
+
+Disallow: /en/auth
+Disallow: /en/carousel
+Disallow: /en/cart
+Disallow: /en/categories
+Disallow: /en/checkout
+Disallow: /en/dashboard
+Disallow: /en/orderDetails
+Disallow: /en/orderStatus
+Disallow: /en/search
+
+Disallow: /ar/auth
+Disallow: /ar/carousel
+Disallow: /ar/cart
+Disallow: /ar/categories
+Disallow: /ar/checkout
+Disallow: /ar/dashboard
+Disallow: /ar/orderDetails
+Disallow: /ar/orderStatus
+Disallow: /ar/search

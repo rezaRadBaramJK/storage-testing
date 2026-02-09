@@ -1,0 +1,8 @@
+<svg id="My_Likes" data-name="My Likes" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <rect id="emotion-line" width="35" height="35" fill="none"/>
+  <rect id="heart-line" width="29" height="29" transform="translate(3 3)" fill="none"/>
+  <g id="Group" transform="translate(3 3)">
+    <path id="Vector" d="M0,0H29V29H0Z" fill="none"/>
+    <path id="Vector-2" data-name="Vector" d="M12.5,1.943a7.41,7.41,0,0,1,10.3.29A7.715,7.715,0,0,1,23.1,12.7L12.5,23.485,1.9,12.7A7.716,7.716,0,0,1,2.2,2.232a7.413,7.413,0,0,1,10.3-.29Zm8.532,2.085a4.939,4.939,0,0,0-6.862-.194L12.5,5.355l-1.67-1.521a4.94,4.94,0,0,0-6.867.2,5.142,5.142,0,0,0-.24,6.925L12.5,19.888l8.775-8.932a5.143,5.143,0,0,0-.241-6.929Z" transform="translate(2 3)"/>
+  </g>
+</svg>

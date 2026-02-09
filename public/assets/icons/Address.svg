@@ -1,0 +1,7 @@
+<svg id="Address" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_25634" data-name="Rectangle 25634" width="24" height="24" fill="none"/>
+  <g id="Group" transform="translate(2 2)">
+    <path id="Vector" d="M0,0H20.358V20.358H0Z" transform="translate(0 0)" fill="none"/>
+    <path id="Vector-2" data-name="Vector" d="M15.268,15.042a.848.848,0,0,1-.848.848H.848A.848.848,0,0,1,0,15.042V6.127a.848.848,0,0,1,.327-.67L7.113.179a.848.848,0,0,1,1.042,0l6.786,5.278a.848.848,0,0,1,.327.67v8.915Zm-1.7-.848V6.541L7.634,1.923,1.7,6.541v7.653ZM3.393,10.8h8.482v1.7H3.393Z" transform="translate(2.545 1.923)" fill="#00bcbf"/>
+  </g>
+</svg>

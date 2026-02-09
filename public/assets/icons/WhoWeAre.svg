@@ -1,0 +1,11 @@
+<svg id="Who_We_Are" data-name="Who We Are" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="smiley-happy" width="20.358" height="20.358" transform="translate(0 0)" fill="#00bcbf"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle_25641" data-name="Rectangle 25641" width="24" height="24" fill="none"/>
+  <g id="Group_39222" data-name="Group 39222" transform="translate(1.821 1.821)" clip-path="url(#clip-path)">
+    <path id="Icon" d="M90.543,151.686a8.143,8.143,0,1,1,8.143-8.143A8.143,8.143,0,0,1,90.543,151.686ZM88.181,141.1v.065H88.1V141.1Zm4.877,0v.065h-.072V141.1Zm.308,4.919a3.3,3.3,0,0,1-5.646,0" transform="translate(-80.364 -133.364)" fill="none" stroke="#00bcbf" stroke-linecap="round" stroke-width="2"/>
+  </g>
+</svg>

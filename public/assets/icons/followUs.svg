@@ -1,0 +1,8 @@
+<svg id="Follow_Us" data-name="Follow Us" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <rect id="emotion-line" width="35" height="35" fill="none"/>
+  <rect id="emotion-line-2" data-name="emotion-line" width="29" height="29" transform="translate(3 3)" fill="none"/>
+  <g id="Group" transform="translate(3 3)">
+    <path id="Vector" d="M0,0H29V29H0Z" fill="none"/>
+    <path id="Vector-2" data-name="Vector" d="M12.5,25A12.5,12.5,0,1,1,25,12.5,12.5,12.5,0,0,1,12.5,25Zm0-2.5a10,10,0,1,0-7.071-2.929A10,10,0,0,0,12.5,22.5Zm-5-8.75h10a5,5,0,1,1-10,0Zm0-2.5A1.875,1.875,0,1,1,8.826,10.7,1.875,1.875,0,0,1,7.5,11.25Zm10,0a1.875,1.875,0,1,1,1.326-.549A1.875,1.875,0,0,1,17.5,11.25Z" transform="translate(2 2)" fill="#03053d"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg id="Wallet" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_25632" data-name="Rectangle 25632" width="24" height="24" fill="none"/>
+  <g id="wallet-line" transform="translate(1.821 1.821)">
+    <rect id="wallet-line-2" data-name="wallet-line" width="20.117" height="20.117" fill="none"/>
+    <g id="Group">
+      <path id="Vector" d="M0,0H20.358V20.358H0Z" fill="none"/>
+      <path id="Vector-2" data-name="Vector" d="M13.572,3.393h2.545a.848.848,0,0,1,.848.848V14.42a.848.848,0,0,1-.848.848H.848A.848.848,0,0,1,0,14.42V.848A.848.848,0,0,1,.848,0H13.572ZM1.7,5.089v8.482H15.268V5.089ZM1.7,1.7v1.7H11.875V1.7Zm9.331,6.786h2.545v1.7H11.027Z" transform="translate(1.696 2.545)" fill="#00bcbf"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.no-scrollbar {
+  -ms-overflow-style: none !important; /* IE and Edge */
+  scrollbar-width: none !important; /* Firefox */
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none !important;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.swiper {
+  position: unset !important;
+}
+.swiper::-webkit-scrollbar {
+  display: none;
+}
+.swiper-pagination-bullet {
+  width: 15px !important;
+  height: 15px !important;
+  background-color: #fff !important ;
+}
+.swiper-pagination-bullet-active {
+  width: 15px !important;
+  height: 15px !important;
+  background-color: #4f5748 !important;
+}
+/* .swiper-container {
+  overflow: visible;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+/* .gTLZXx {
+  width: 10%;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%,-50%);
+} */
+/* disabledBtn */
+button:disabled {
+  opacity: 0.5;
+}
+
+.hoverEffect:hover button,
+.hoverEffect:hover p {
+  display: block !important;
+}
+
+/* range slider */
+/* Yellow Range Slider */
+
+#range-slider-custom .range-slider__range {
+  background: #000;
+  transition: height 0.3s;
+}
+
+#range-slider-custom .range-slider__thumb {
+  background: #000;
+  transition: transform 0.3s;
+}
+
+#range-slider-custom .range-slider__thumb[data-active] {
+  transform: translate(-50%, -50%) scale(1.25);
+}
+
+#range-slider-custom .range-slider__range[data-active] {
+  height: 16px;
+}
+
+.bhdLno {
+  width: 300px !important;
+  height: 300px !important;
+  transform: rotate(-45deg);
+}
+
+
+#range-slider-yellow .range-slider__range {
+  background: #F08718;
+  transition: height 0.3s;
+}
+
+#range-slider-yellow .range-slider__thumb {
+  background: #F08718;
+  transition: transform 0.3s;
+}
+
+@media (max-width: 767px) {
+  .desktop-hide-scrollbar::-webkit-scrollbar {
+    display: none !important;
+  }
+  .desktop-hide-scrollbar {
+    -ms-overflow-style: none !important;
+  }
+}

@@ -1,0 +1,19 @@
+<svg id="Filter" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_25653" data-name="Rectangle 25653" width="24" height="24" fill="none"/>
+  <g id="filter-2" data-name="filter" transform="translate(4 4)">
+    <g id="Group_19548" data-name="Group 19548">
+      <g id="Ellipse_1" data-name="Ellipse 1" fill="none" stroke="#000" stroke-width="1.5">
+        <circle cx="3.5" cy="3.5" r="3.5" stroke="none"/>
+        <circle cx="3.5" cy="3.5" r="2.75" fill="none"/>
+      </g>
+      <line id="Line_1" data-name="Line 1" x2="6" transform="translate(9.5 3.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+    </g>
+    <g id="Group_19549" data-name="Group 19549" transform="translate(15.5 16) rotate(180)">
+      <g id="Ellipse_1-2" data-name="Ellipse 1" fill="none" stroke="#000" stroke-width="1.5">
+        <circle cx="3.5" cy="3.5" r="3.5" stroke="none"/>
+        <circle cx="3.5" cy="3.5" r="2.75" fill="none"/>
+      </g>
+      <line id="Line_1-2" data-name="Line 1" x2="6" transform="translate(9.5 3.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>
