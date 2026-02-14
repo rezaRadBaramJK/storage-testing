@@ -51,7 +51,7 @@ export default function Slider({ rootCategorySelected }) {
                     width={2100}
                     height={1500}
                     alt={""}
-                    src={`https://morgap44.k-pack.online/FrontendApi/${item.FileUrl}`}
+                    src={`https://storage.k-pack.online/FrontendApi/${item.FileUrl}`}
                     className="transition-opacity lg:bg-cover lg:object-cover lg:max-h-[475px] opacity-0 duration-[1s]"
                     onLoadingComplete={(image) =>
                       image.classList.remove("opacity-0")

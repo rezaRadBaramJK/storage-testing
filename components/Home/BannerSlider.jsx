@@ -33,7 +33,7 @@ const BannerSlider = ({ loading, banners }) => {
                   <Image
                     width={2100}
                     height={1500}
-                    src={`https://morgap44.k-pack.online/FrontendApi/${item.FileUrl}`}
+                    src={`https://storage.k-pack.online/FrontendApi/${item.FileUrl}`}
                     alt={""}
                     className="transition-opacity lg:bg-cover lg:object-cover lg:max-h-[475px] opacity-0 duration-[1s]"
                     onLoadingComplete={(image) =>
