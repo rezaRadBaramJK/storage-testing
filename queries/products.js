@@ -16,6 +16,11 @@ export function useCategoryProductsQuery(categoryId, subCategoryId) {
       return lastPageParam + 1;
     },
     enabled: isValidId(categoryId),
+
+    staleTime: Infinity,
+    refetchOnWindowFocus: false,
+    refetchOnMount: false,
+    // -----------------------
   });
   const lastPage = query?.data?.pages?.at(-1)?.data;
   const hasNextPage = lastPage?.HasNextPage;

@@ -8,6 +8,7 @@ export const getProductsWithCategoryids = async (
   pageNumber
 ) => {
   try {
+
     const response = await httpRequest.post("/Product/GetProducts", {
       SubCategories: subCatId ? false : true,
       CategoriesIds: [subCatId ? subCatId : rootCatId],
