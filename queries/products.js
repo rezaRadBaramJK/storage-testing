@@ -6,11 +6,34 @@ import { isValidId } from "@/utils/validations";
 import { useInfiniteQuery, useQuery } from "@tanstack/react-query";
 import { getLocalizedProductDetailsBySeName } from "@/services/http/products/getLocalizedProductDetailsBySeName";
 
-export function useCategoryProductsQuery(categoryId, subCategoryId) {
+export function useCategoryProductsQuery(
+  categoryId,
+  subCategoryId,
+  includePrice,
+  includePicture,
+  includeTag,
+  includeCategories
+) {
   const query = useInfiniteQuery({
-    queryKey: [QUERY_KEYS.PRODUCTS.PRODUCT_CATEGORY, categoryId, subCategoryId],
+    queryKey: [
+      QUERY_KEYS.PRODUCTS.PRODUCT_CATEGORY,
+      categoryId,
+      subCategoryId,
+      includePrice,
+      includePicture,
+      includeTag,
+      includeCategories
+    ],
     queryFn: ({ pageParam }) =>
-      getProductsWithCategoryids(categoryId, subCategoryId, pageParam),
+      getProductsWithCategoryids(
+        categoryId,
+        subCategoryId,
+        includePrice,
+        includePicture,
+        includeTag,
+        includeCategories,
+        pageParam
+      ),
     initialPageParam: 1,
     getNextPageParam(_, __, lastPageParam) {
       return lastPageParam + 1;
@@ -19,7 +42,7 @@ export function useCategoryProductsQuery(categoryId, subCategoryId) {
 
     staleTime: Infinity,
     refetchOnWindowFocus: false,
-    refetchOnMount: false,
+    refetchOnMount: false
     // -----------------------
   });
   const lastPage = query?.data?.pages?.at(-1)?.data;
@@ -37,7 +60,7 @@ export function useCategoryProductsQuery(categoryId, subCategoryId) {
     ...query,
     products,
     hasNextPage,
-    ref,
+    ref
   };
 }
 
@@ -63,7 +86,7 @@ export function useSearchProductsQuery(params) {
       ),
     getNextPageParam(_, __, lastPageParam) {
       return lastPageParam + 1;
-    },
+    }
   });
   const ref = useInfiniteScroll(
     { hasNextPage: query.hasNextPage, isLoading: query.isLoading },
@@ -80,7 +103,7 @@ export function useSearchProductsQuery(params) {
     ...query,
     hasNextPage,
     products,
-    ref,
+    ref
   };
 }
 
@@ -88,6 +111,6 @@ export function useProductDetailsQuery(seName) {
   return useQuery({
     queryKey: [QUERY_KEYS.PRODUCTS.PRODUCT_DETAILS, seName],
     queryFn: getLocalizedProductDetailsBySeName.bind(null, seName),
-    enabled: Boolean(seName),
+    enabled: Boolean(seName)
   });
 }

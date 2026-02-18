@@ -53,7 +53,14 @@ export default function Home() {
     products,
     ref: lastProductRef,
     ...productsQuery
-  } = useCategoryProductsQuery(activeCategoryId, activeSubCategoryId);
+  } = useCategoryProductsQuery(
+    activeCategoryId,
+    activeSubCategoryId,
+    true,
+    true,
+    false,
+    false
+  );
 
   const t = useTranslations("index");
 

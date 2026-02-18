@@ -5,6 +5,10 @@ import { successDto } from "@/dto/successDto";
 export const getProductsWithCategoryids = async (
   rootCatId,
   subCatId,
+  includePrice = true,
+  includePicture= true,
+  includeTag = false,
+  includeCategories = false,
   pageNumber
 ) => {
   try {
@@ -16,6 +20,10 @@ export const getProductsWithCategoryids = async (
       PageNumber: pageNumber,
       PageSize: 10,
       IncludeAttributes: true,
+      IncludePrice : includePrice,
+      IncludePicture: includePicture,
+      IncludeTag : includeTag,
+      IncludeCategories : includeCategories,
     });
     const data = await response.data.Data;
 
